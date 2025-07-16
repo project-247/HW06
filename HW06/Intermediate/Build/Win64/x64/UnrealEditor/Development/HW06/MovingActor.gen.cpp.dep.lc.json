@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\unreal_project\\hw06\\hw06\\hw06\\intermediate\\build\\win64\\unrealeditor\\inc\\hw06\\uht\\movingactor.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\unreal_project\\hw06\\hw06\\hw06\\intermediate\\build\\win64\\x64\\hw06editor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\unreal_project\\hw06\\hw06\\hw06\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\hw06\\definitions.hw06.h",
+            "d:\\unreal_project\\hw06\\hw06\\hw06\\source\\hw06\\movingactor.h",
+            "d:\\unreal_project\\hw06\\hw06\\hw06\\intermediate\\build\\win64\\unrealeditor\\inc\\hw06\\uht\\movingactor.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

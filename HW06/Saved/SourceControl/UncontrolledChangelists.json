@@ -1,0 +1,24 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"D:/Unreal_Project/HW06/HW06/HW06/Content/StarterContent/Architecture/Floor_400x400.uasset",
+				"D:/Unreal_Project/HW06/HW06/HW06/Content/MyMovingActor.uasset",
+				"D:/Unreal_Project/HW06/HW06/HW06/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/36/4DWIRXHB1U3AAEWVFLP655.uasset",
+				"D:/Unreal_Project/HW06/HW06/HW06/Content/MyRotationActor.uasset",
+				"D:/Unreal_Project/HW06/HW06/HW06/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/KR/NGL21SNOZQVT49XWQYXG91.uasset",
+				"D:/Unreal_Project/HW06/HW06/HW06/Content/StarterContent/Materials/M_Metal_Gold.uasset",
+				"D:/Unreal_Project/HW06/HW06/HW06/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset",
+				"D:/Unreal_Project/HW06/HW06/HW06/Content/StarterContent/Materials/M_Concrete_Grime.uasset",
+				"D:/Unreal_Project/HW06/HW06/HW06/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/KD/YX4VDGHFKWQ5A03S3LO9P9.uasset",
+				"D:/Unreal_Project/HW06/HW06/HW06/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/94/Z216JQ4T2Q5REHH211227W.uasset",
+				"D:/Unreal_Project/HW06/HW06/HW06/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/AS/TI3IM5TOVBEHN5N91Q2UN9.uasset",
+				"D:/Unreal_Project/HW06/HW06/HW06/Content/FPWeapon/Materials/BaseMaterial.uasset",
+				"D:/Unreal_Project/HW06/HW06/HW06/Content/LevelPrototyping/Materials/M_Solid.uasset"
+			]
+		}
+	]
+}
