@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HW06ModuleRules")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Development")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5e1e03a946e807a4e8ea11162cb04a0c63323a3b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e8801656449604500b6e6ed21361fa654def4115")]
 [assembly: System.Reflection.AssemblyProductAttribute("HW06ModuleRules")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HW06ModuleRules")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

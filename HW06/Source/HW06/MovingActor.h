@@ -23,16 +23,18 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-private:
 	UPROPERTY(EditAnywhere)
-	TObjectPtr<UStaticMeshComponent> StaticMeshComp;
+	float MoveSpeed;
 
-	// MoveSpeed, MaxRange, StartLocation
-	float MoveSpeed; // 속도
-	float MaxRange; // 거리
+	UPROPERTY(EditAnywhere)
+	float MaxRange;
+
+	// 시작 위치 
 	FVector StartLocation;
 
 	// 방향
 	int Direction;
-
+private:
+	UPROPERTY(EditAnywhere)
+	TObjectPtr<UStaticMeshComponent> StaticMeshComp;
 };

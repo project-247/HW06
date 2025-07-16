@@ -33,18 +33,18 @@ struct Z_Construct_UClass_ARotationActor_Statics
 		{ "IncludePath", "RotationActor.h" },
 		{ "ModuleRelativePath", "RotationActor.h" },
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_RotSpeed_MetaData[] = {
+		{ "Category", "RotationActor" },
+		{ "ModuleRelativePath", "RotationActor.h" },
+	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_StaticMeshComp_MetaData[] = {
 		{ "Category", "RotationActor" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "RotationActor.h" },
 	};
-	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_RotSpeed_MetaData[] = {
-		{ "Category", "RotationActor" },
-		{ "ModuleRelativePath", "RotationActor.h" },
-	};
 #endif // WITH_METADATA
-	static const UECodeGen_Private::FObjectPropertyParams NewProp_StaticMeshComp;
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_RotSpeed;
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_StaticMeshComp;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -52,11 +52,11 @@ struct Z_Construct_UClass_ARotationActor_Statics
 	};
 	static const UECodeGen_Private::FClassParams ClassParams;
 };
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ARotationActor_Statics::NewProp_RotSpeed = { "RotSpeed", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ARotationActor, RotSpeed), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_RotSpeed_MetaData), NewProp_RotSpeed_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ARotationActor_Statics::NewProp_StaticMeshComp = { "StaticMeshComp", nullptr, (EPropertyFlags)0x0144000000080009, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ARotationActor, StaticMeshComp), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_StaticMeshComp_MetaData), NewProp_StaticMeshComp_MetaData) };
-const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ARotationActor_Statics::NewProp_RotSpeed = { "RotSpeed", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ARotationActor, RotSpeed), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_RotSpeed_MetaData), NewProp_RotSpeed_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ARotationActor_Statics::PropPointers[] = {
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARotationActor_Statics::NewProp_StaticMeshComp,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARotationActor_Statics::NewProp_RotSpeed,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARotationActor_Statics::NewProp_StaticMeshComp,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_ARotationActor_Statics::PropPointers) < 2048);
 UObject* (*const Z_Construct_UClass_ARotationActor_Statics::DependentSingletons[])() = {
@@ -99,10 +99,10 @@ ARotationActor::~ARotationActor() {}
 struct Z_CompiledInDeferFile_FID_Unreal_Project_HW06_HW06_HW06_Source_HW06_RotationActor_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ARotationActor, ARotationActor::StaticClass, TEXT("ARotationActor"), &Z_Registration_Info_UClass_ARotationActor, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ARotationActor), 515372117U) },
+		{ Z_Construct_UClass_ARotationActor, ARotationActor::StaticClass, TEXT("ARotationActor"), &Z_Registration_Info_UClass_ARotationActor, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ARotationActor), 2368365448U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_Project_HW06_HW06_HW06_Source_HW06_RotationActor_h_1322653654(TEXT("/Script/HW06"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_Project_HW06_HW06_HW06_Source_HW06_RotationActor_h_2814589478(TEXT("/Script/HW06"),
 	Z_CompiledInDeferFile_FID_Unreal_Project_HW06_HW06_HW06_Source_HW06_RotationActor_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Unreal_Project_HW06_HW06_HW06_Source_HW06_RotationActor_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

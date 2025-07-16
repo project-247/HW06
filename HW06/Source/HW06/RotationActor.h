@@ -25,12 +25,12 @@ public:
 
 	void TimeEvent();
 
+	UPROPERTY(EditAnywhere)
+	float RotSpeed;
+
 private:
 	UPROPERTY(EditAnywhere)
 	TObjectPtr<UStaticMeshComponent> StaticMeshComp;
-
-	UPROPERTY(EditAnywhere)
-	float RotSpeed;
 
 	FTimerHandle TimeEventHandle;
 };
